@@ -1,0 +1,70 @@
+Query1 with small.bin:
+real    0m0.300s
+user    0m0.015s
+sys     0m0.015s
+
+Query1 with large.bin:
+real    19m35.353s
+user    0m0.000s
+sys     0m0.046s
+
+Query2 with small.bin:
+real    0m1.566s
+user    0m0.000s
+sys     0m0.015s
+
+Query2 with large.bin:
+real    14m47.492s
+user    0m0.000s
+sys     0m0.031s
+
+Query3 Index creation file execution time with small.bin:
+real    0m0.054s
+user    0m0.027s
+sys     0m0.004s
+
+Query3 MainFile execution time with small.bin:
+real    0m0.044s
+user    0m0.027s
+sys     0m0.006s
+
+Query3 Index creation file execution time with large.bin:
+real    193m7.021s
+user    5m0.027s
+sys     0m4.067s
+
+Query3 MainFile execution time with large.bin:
+real    139m0.044s
+user    3m0.027s
+sys     0m5.006s
+
+Query4 sort Index execution time with small.bin:
+real    0m0.054s
+user    0m0.030s
+sys     0m0.004s
+
+Query4 Index creation file execution time with small.bin:
+real    0m0.055s
+user    0m0.027s
+sys     0m0.005s
+
+Query4 MainFile execution time with small.bin:
+real    0m0.046s
+user    0m0.023s
+sys     0m0.011s
+
+Back of the Envelope calculation for Query4 using large.bin:
+Query4 sort Index execution time with large.bin:
+real    150m0.00s
+user    0m0.000s
+sys     0m0.000s
+
+Query4 Index creation file execution time with large.bin:
+real    190m0.055s
+user    0m0.027s
+sys     0m0.005s
+
+Query4 MainFile execution time with large.bin:
+real    170m0.046s
+user    0m0.023s
+sys     0m0.011s
